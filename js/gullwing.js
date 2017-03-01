@@ -1,3 +1,10 @@
+// Localize
+
+$(function(){
+  $("[data-localize]").localize("gullwing");
+});
+
+// Banner Animation
 $(function () {
     setTimeout('rect()'); 
 });
