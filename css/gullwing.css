@@ -32,7 +32,7 @@ body{
 }
 
 .download{
-  height: 400px;
+  height: 450px;
   background-color: #F3F3F3;
   padding: 70px 0;
 }
@@ -44,11 +44,13 @@ body{
 
 .apple{
   width: 250px;
+  margin: 20px 0;
 }
 
 .google{
   width: 294px;
   padding-right: 7px;
+  margin: 20px 0;
 }
 
 .sns{
