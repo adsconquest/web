@@ -17,9 +17,9 @@ function rect() {
         top: '0'
     }, 3000);
     $('.fadein').animate({
-        opacity: '0'
-    }, 3000).animate({
         opacity: '1'
+    }, 3000).animate({
+        opacity: '0'
     }, 3000);
     setTimeout('rect()', 6000);
 }
