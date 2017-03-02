@@ -14,11 +14,11 @@ body{
 }
 
 .fadein{
-  width: 50%;
+  width: 70%;
   position: fixed;
   z-index: 2;
   top: 25%;
-  left: 25%;
+  left: 15%;
   opacity: 0;
 }
 
