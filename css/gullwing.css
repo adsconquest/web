@@ -22,6 +22,10 @@ body{
   opacity: 0;
 }
 
+.container{
+  padding: 0;
+}
+
 .title{
   height: 450px;
   padding: 70px 0;
