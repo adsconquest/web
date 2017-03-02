@@ -41,15 +41,8 @@ body{
 }
 
 .title img{
-  width: 350px;
+  margin: auto;
   margin-top: 30px;
-}
-
-
-@media screen and (max-width: 600px){
-  .title img{
-    width: 250px;
-  }
 }
 
 .download{
