@@ -27,6 +27,7 @@ body{
   position: fixed;
   z-index: 3;
   bottom: 10%;
+  left: -20%;
 }
 
 .container{
