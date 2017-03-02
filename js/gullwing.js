@@ -11,7 +11,7 @@ $(function () {
 
 function rect() {
     $('.banner').animate({
-        top: '800px'
+        top: '80%'
     }, 3000).animate({
         top: '0'
     }, 3000);
