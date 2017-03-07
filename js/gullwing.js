@@ -46,7 +46,7 @@ function cherrySmile(){
 function smile(){
   $('.cherry-smile').css('visibility', 'visible');
   $('.cherry-smile').animate({
-    right: '-50%'
+    right: '-40%'
   }, 2000).animate({
     right: '0'
   }, 0);
