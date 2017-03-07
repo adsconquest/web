@@ -40,13 +40,18 @@ function cherrySmile(){
   }, 2000).animate({
     right: '-30%'
   }, 0);
-  setTimeout('cherrySmile()', 2000);
+  setTimeout('cherrySmile()', 4000);
 }
 
 function smile(){
   $('.cherry-smile').css('visibility', 'visible');
-  setTimeout('smile()', 2000);
-  setTimeout('hide()', 500);
+  $('.cherry-smile').animate({
+    right: '-30%'
+  }, 2000).animate({
+    right: '0'
+  }, 0);
+  setTimeout('smile()', 4000);
+  setTimeout('hide()', 1900);
 }
 
 function hide(){
