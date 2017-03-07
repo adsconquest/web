@@ -1,5 +1,4 @@
 // Localize
-
 $(function(){
   $("[data-localize]").localize("gullwing");
 });
@@ -8,6 +7,8 @@ $(function(){
 $(function () {
     setTimeout('rect()'); 
     setTimeout('pigu()'); 
+    setTimeout('cherrySmile()');
+    setTimeout('smile()', 2000);
 });
 
 function rect() {
@@ -31,4 +32,23 @@ function pigu(){
         left: '-20%'
     }, 0);
     setTimeout('pigu()', 1500);
+}
+
+function cherrySmile(){
+  $('.cherry').animate({
+    right: '0'
+  }, 2000).animate({
+    right: '-30%'
+  }, 0);
+  setTimeout('cherrySmile()', 2000);
+}
+
+function smile(){
+  $('.cherry-smile').css('visibility', 'visible');
+  setTimeout('smile()', 2000);
+  setTimeout('hide()', 500);
+}
+
+function hide(){
+  $('.cherry-smile').css('visibility', 'hidden');
 }
