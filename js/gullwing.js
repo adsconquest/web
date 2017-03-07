@@ -38,7 +38,7 @@ function cherrySmile(){
   $('.cherry').animate({
     right: '0'
   }, 2000).animate({
-    right: '-50%'
+    right: '-100%'
   }, 0);
   setTimeout('cherrySmile()', 4000);
 }
