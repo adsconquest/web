@@ -6,7 +6,11 @@ $(function(){
 // Banner Animation
 $(function () {
     setTimeout('rect()'); 
-    setTimeout('pigu()'); 
+    setTimeout('pig()'); 
+    setTimeout('pig2()', 500); 
+    setTimeout('pig3()', 1000); 
+    setTimeout('pig4()', 1500); 
+    setTimeout('pig5()', 2000); 
     setTimeout('cherrySmile()');
     setTimeout('smile()', 2000);
 });
@@ -25,13 +29,49 @@ function rect() {
     setTimeout('rect()', 6000);
 }
 
-function pigu(){
+function pig(){
     $('.horizon').animate({
         left: '100%'
-    }, 1500).animate({
+    }, 2500).animate({
         left: '-20%'
     }, 0);
-    setTimeout('pigu()', 1500);
+    setTimeout('pig()', 2500);
+}
+
+function pig2(){
+    $('.horizon2').animate({
+        left: '100%'
+    }, 2500).animate({
+        left: '-20%'
+    }, 0);
+    setTimeout('pig2()', 2500);
+}
+
+function pig3(){
+    $('.horizon3').animate({
+        left: '100%'
+    }, 2500).animate({
+        left: '-20%'
+    }, 0);
+    setTimeout('pig3()', 2500);
+}
+
+function pig4(){
+    $('.horizon4').animate({
+        left: '100%'
+    }, 2500).animate({
+        left: '-20%'
+    }, 0);
+    setTimeout('pig4()', 2500);
+}
+
+function pig5(){
+    $('.horizon5').animate({
+        left: '100%'
+    }, 2500).animate({
+        left: '-20%'
+    }, 0);
+    setTimeout('pig5()', 2500);
 }
 
 function cherrySmile(){

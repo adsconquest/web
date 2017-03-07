@@ -31,6 +31,38 @@ body{
   left: -20%;
 }
 
+.horizon2{
+  width: 100px;
+  position: fixed;
+  z-index: 3;
+  bottom: 20%;
+  left: -20%;
+}
+
+.horizon3{
+  width: 100px;
+  position: fixed;
+  z-index: 3;
+  bottom: 30%;
+  left: -20%;
+}
+
+.horizon4{
+  width: 100px;
+  position: fixed;
+  z-index: 3;
+  bottom: 40%;
+  left: -20%;
+}
+
+.horizon5{
+  width: 100px;
+  position: fixed;
+  z-index: 3;
+  bottom: 50%;
+  left: -20%;
+}
+
 .container{
   padding: 0;
 }
