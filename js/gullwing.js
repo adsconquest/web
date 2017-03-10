@@ -7,10 +7,10 @@ $(function(){
 $(function () {
     setTimeout('rect()'); 
     setTimeout('pig()'); 
-    setTimeout('pig2()', 500); 
-    setTimeout('pig3()', 1000); 
-    setTimeout('pig4()', 1500); 
-    setTimeout('pig5()', 2000); 
+    setTimeout('pig2()', 2000); 
+    setTimeout('pig3()', 4000); 
+    setTimeout('pig4()', 6000); 
+    setTimeout('pig5()', 8000); 
     setTimeout('cherrySmile()');
     setTimeout('smile()', 2000);
 });
@@ -33,45 +33,45 @@ function pig(){
     $('.horizon').animate({
         left: '100%'
     }, 2500).animate({
-        left: '-20%'
+        left: '-30%'
     }, 0);
-    setTimeout('pig()', 2500);
+    setTimeout('pig()', 10000);
 }
 
 function pig2(){
     $('.horizon2').animate({
         left: '100%'
     }, 2500).animate({
-        left: '-20%'
+        left: '-30%'
     }, 0);
-    setTimeout('pig2()', 2500);
+    setTimeout('pig2()', 10000);
 }
 
 function pig3(){
     $('.horizon3').animate({
         left: '100%'
     }, 2500).animate({
-        left: '-20%'
+        left: '-30%'
     }, 0);
-    setTimeout('pig3()', 2500);
+    setTimeout('pig3()', 10000);
 }
 
 function pig4(){
     $('.horizon4').animate({
         left: '100%'
     }, 2500).animate({
-        left: '-20%'
+        left: '-30%'
     }, 0);
-    setTimeout('pig4()', 2500);
+    setTimeout('pig4()', 10000);
 }
 
 function pig5(){
     $('.horizon5').animate({
         left: '100%'
     }, 2500).animate({
-        left: '-20%'
+        left: '-30%'
     }, 0);
-    setTimeout('pig5()', 2500);
+    setTimeout('pig5()', 10000);
 }
 
 function cherrySmile(){
