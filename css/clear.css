@@ -1,20 +1,10 @@
-body{
-  width: 100%;
-  background-color: #FFFF00;
-}
-
-.logo{
-  margin-top: 10px;
-  width: 20%;
-}
-
 .container{
   height: 100%;
   padding: 0;
   width: 100%;
 }
 
-.first-msg{
+.over-msg{
   font-size: 40px;
   margin: 20px 0;
   color: #FF0000;
@@ -29,20 +19,4 @@ body{
         1px 1px 0 #000;
 }
 
-.second-msg{
-  margin: 15px 0;
-}
 
-.pugya{
-  width: 100%;
-  margin-bottom: 300px;
-}
-
-.end-roll{
-  margin: 50px 0;
-}
-
-.end-roll img{
-  margin: 20px 0;
-  width: 60%;
-}
