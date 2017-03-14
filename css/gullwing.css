@@ -23,7 +23,7 @@ body{
 }
 
 .horizon, .horizon2, .horizon3, .horizon4, .horizon5{
-  width: 100px;
+  width: 20%;
   position: fixed;
   z-index: 3;
   bottom: 10%;
