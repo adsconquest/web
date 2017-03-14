@@ -5,6 +5,7 @@ $(function(){
 
 // Banner Animation
 $(function () {
+    random();
     setTimeout('rect()'); 
     setTimeout('pig()'); 
     setTimeout('pig2()', 2000); 
@@ -14,6 +15,16 @@ $(function () {
     setTimeout('cherrySmile()');
     setTimeout('smile()', 2000);
 });
+
+function random(){
+  var images = [
+	'../img/gameover_buta.png',
+	'../img/game_over_2.png',
+	'../img/game_over3.png'
+  ];
+  var randImg = images[Math.floor(Math.random() * images.length)];
+  $('.pugya').attr('src', randImg);
+}
 
 function rect() {
     $('.banner').animate({
