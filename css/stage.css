@@ -42,7 +42,12 @@ body{
   margin: 50px 0;
 }
 
-.end-roll img{
-  margin: 20px 0;
+.end-roll .imgs{
+  margin: 40px 0;
   width: 60%;
+}
+
+.enter{
+  width: 40%;
+  margin-top: 100px;
 }
