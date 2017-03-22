@@ -1,6 +1,6 @@
 body{
   width: 100%;
-  background-color: #FFFF00;
+  background-color: #424242;
 }
 
 .logo{
@@ -14,21 +14,6 @@ body{
   width: 100%;
 }
 
-.first-msg{
-  font-size: 40px;
-  margin: 20px 0;
-  color: #FF0000;
-  text-shadow:
-        0 1px 0 #000,
-        1px 0 0 #000,
-        0 -1px 0 #000,
-        -1px 0 0 #000,
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-}
-
 .second-msg{
   margin: 15px 0;
 }
@@ -38,16 +23,34 @@ body{
   margin-bottom: 300px;
 }
 
-.end-roll{
-  margin: 50px 0;
+.first-msg{
+  width: 70%;
 }
 
-.end-roll .imgs{
-  margin: 40px 0;
-  width: 60%;
+.end-roll{
+  margin: 100px 0;
 }
 
 .enter{
-  width: 40%;
-  margin-top: 100px;
+  width: 200px;
+  margin-top: 2000px;
 }
+
+@media screen and (min-width: 700px){
+  .first-msg{
+    width: 50%;
+  }
+  .pugya{
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .first-msg{
+    width: 40%;
+  }
+  .pugya{
+    width: 50%;
+  }
+}
+
