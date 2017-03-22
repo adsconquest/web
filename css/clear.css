@@ -4,19 +4,48 @@
   width: 100%;
 }
 
-.over-msg{
-  font-size: 40px;
-  margin: 20px 0;
-  color: #FF0000;
-  text-shadow:
-        0 1px 0 #000,
-        1px 0 0 #000,
-        0 -1px 0 #000,
-        -1px 0 0 #000,
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
+.second-msg{
+  margin: 15px 0;
 }
 
+.pugya{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.msg{
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.first-msg{
+  width: 70%;
+}
+
+.end-roll{
+  margin: 100px 0;
+  margin-top: 2000px;
+}
+
+.enter{
+  width: 70%;
+}
+
+@media screen and (min-width: 700px){
+  .first-msg{
+    width: 50%;
+  }
+  .pugya, .enter{
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .first-msg{
+    width: 40%;
+  }
+  .pugya, .enter{
+    width: 50%;
+  }
+}
 
