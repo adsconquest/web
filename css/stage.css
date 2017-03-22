@@ -14,7 +14,7 @@ body{
 }
 
 .pugya{
-  width: 100%;
+  width: 40%;
   margin-bottom: 300px;
 }
 
@@ -36,7 +36,7 @@ body{
     width: 50%;
   }
   .pugya{
-    width: 60%;
+    width: 30%;
   }
 }
 
@@ -45,7 +45,7 @@ body{
     width: 40%;
   }
   .pugya{
-    width: 50%;
+    width: 20%;
   }
 }
 
