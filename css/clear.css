@@ -1,3 +1,7 @@
+body{
+  background: linear-gradient(#fff200, #000)
+}
+
 .container{
   height: 100%;
   padding: 0;
@@ -16,6 +20,11 @@
 .msg{
   font-size: 25px;
   line-height: 30px;
+}
+
+.end-roll .msg{
+  margin: 20px 0;
+  color: #FFF;
 }
 
 .first-msg{
