@@ -7,6 +7,7 @@ $(function(){
 $(function () {
     random();
     setTimeout('rect()'); 
+    setTimeout('concierge()'); 
     setTimeout('pig()'); 
     setTimeout('pig2()', 2000); 
     setTimeout('pig3()', 4000); 
@@ -26,8 +27,17 @@ function random(){
   $('.pugya').attr('src', randImg);
 }
 
+function concierge(){
+    $('.concierge').animate({
+        left: '100%'
+    }, 2500).animate({
+        left: '-30%'
+    }, 3000);
+    setTimeout('concierge()', 5500);
+}
+
 function rect() {
-    $('.banner').animate({
+    $('.mak').animate({
       top: '100%'
     }, 3000).animate({
         top: '0'
