@@ -42,6 +42,11 @@ function rect() {
     }, 3000).animate({
         top: '0'
     }, 3000);
+    $('.banner').animate({
+      top: '100%'
+    }, 3000).animate({
+        top: '0'
+    }, 3000);
     $('.fadein').animate({
         opacity: '1'
     }, 3000).animate({
