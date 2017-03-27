@@ -8,6 +8,15 @@ body{
   z-index: 0;
 }
 
+.top-msg{
+  margin-top: 25px;
+}
+
+.back{
+  font-size: 25px;
+  margin: 10px 0;
+}
+
 .cherry{
   position: fixed;
   top: 0;
