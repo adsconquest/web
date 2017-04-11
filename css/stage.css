@@ -28,7 +28,13 @@ body{
 
 .enter{
   width: 200px;
-  margin-top: 2000px;
+  margin: 20px 0;
+}
+
+.middle-msg{
+  color: #FFF;
+  margin: 30px 0;
+  line-height: 20px;
 }
 
 @media screen and (min-width: 700px){
