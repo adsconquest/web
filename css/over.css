@@ -117,6 +117,12 @@ body{
 }
 
 .over{
+  margin: 40px auto;
+}
+
+.over-logo{
+  width: 90%;
+  margin-top: 30px;
   margin-bottom: 100px;
 }
 
@@ -130,6 +136,9 @@ body{
   .over-msg{
     font-size: 50px;
   }
+  .over-logo{
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 700px){
@@ -142,6 +151,9 @@ body{
   .over-msg{
     font-size: 60px;
   }
+  .over-logo{
+    width: 60%;
+  }
 }
 
 @media screen and (min-width: 1200px){
@@ -153,6 +165,9 @@ body{
   }
   .over-msg{
     font-size: 70px;
+  }
+  .over-logo{
+    width: 40%;
   }
 }
 
