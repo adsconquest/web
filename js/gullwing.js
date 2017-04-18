@@ -44,9 +44,11 @@ function rect() {
         top: '0'
     }, 3000);
     $('.fadein').animate({
-        opacity: '1'
+        opacity: '1',
+        bottom: '0'
     }, 3000).animate({
-        opacity: '0'
+        opacity: '0',
+        bottom: '200px'
     }, 3000);
     setTimeout('rect()', 6000);
 }
