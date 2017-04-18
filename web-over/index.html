@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
-    <title>Gullwing Project</title>
+    <title>GAME OVER - ADS CONQUEST</title>
     <meta name=”Description” content=”説明” />
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
@@ -17,16 +17,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <script type="text/javascript" src="js/jquery.localize.min.js"></script>
-    <script>
-    </script>
-    <script src="js/gullwing.js"></script>
-    <script src="js/top.js"></script>
+    <script src="../js/gullwing.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link href="css/gullwing.css" rel="stylesheet" />
+    <link href="../css/gullwing.css" rel="stylesheet" />
+    <link href="../css/over.css" rel="stylesheet" />
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,31 +35,41 @@
 </script>
   </head>
   <body>
-    <div class="gray"></div>
-    <div class="popup"><a href=".web-over/"><img src="img/bn_wide_updown.png"></a></div>
-    <a class="close">×CLOSE</a>
-    <a href="./web-over/">
-      <img src="img/footer_bn_wide_2.png" class="fadein">
+    <a href="../over/">
+      <img src="../img/main_bn_wide_small_buta.png" class="banner">
     </a>
-    <a href="./web-over/">
-      <img src="img/main_bn_concierge_1.png" class="concierge">
+    <a href="../over/">
+      <img src="../img/main_bn_concierge_1.png" class="horizon">
     </a>
-    <a href="./web-over/">
-      <img src="img/bn_wide_updown.png" class="mak">
+    <a href="../over/">
+      <img src="../img/cherry_boy1.png" class="cherry">
     </a>
-    <section id="title" class="title">
-      <div class="container text-center">
-        <h1 data-localize="greeting">広告を避け続ける</h1>
-        <h2 data-localize="second-greeting">新感覚ゲーム登場</h2>
-        <img class="img-responsive" src="img/top_logo.png">
+    <a href="../over/">
+      <img src="../img/cherry_boy2.png" class="cherry-smile">
+    </a>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=138495162909933";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="logos">
+    </div>
+    <div class="container">
+      <div class="over">
+        <p class="over-msg text-center">GAME OVER</p>
       </div>
-      <div class="container">
-        <div class="store-icons text-center">
-          <a href="/"><img class="apple" src="img/badge-download-on-the-app-store.svg"></a>
-          <br />
-          <a href="/"><img class="google" src="img/google-play-badge.png"></a>
-        </div>
+      <div class="text-center back">
+        <a href="../">公式ページに戻る</a>
       </div>
-    </section>
+      <div class="middle-msg text-center">
+        <img class="pugya">
+      </div>
+      <div class="text-center">
+        <img class="over-logo" src="../img/top_logo.png">
+      </div>
+    </div>
   </body>
 </html>
