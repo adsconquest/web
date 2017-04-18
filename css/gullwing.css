@@ -24,6 +24,7 @@ body{
 }
 
 .popup{
+  width: 100%;
   display: none;
   position: fixed;
   z-index: 11;
@@ -37,6 +38,10 @@ body{
   top: 10px;
   opacity: 0.8;
   color: #fff;
+}
+
+.close:hover{
+  color: #FFF;
 }
 
 .popup img{
