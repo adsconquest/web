@@ -60,7 +60,7 @@ body{
 
 .fadein{
   width: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   bottom: 200px;
   opacity: 0;
