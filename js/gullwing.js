@@ -7,7 +7,6 @@ $(function(){
 $(function () {
     random();
     setTimeout('rect()'); 
-    setTimeout('concierge()'); 
     setTimeout('pig()'); 
     setTimeout('cherrySmile()');
     setTimeout('smile()', 2000);
@@ -22,16 +21,6 @@ function random(){
   var randImg = images[Math.floor(Math.random() * images.length)];
   $('.pugya').attr('src', randImg);
 }
-
-function concierge(){
-    $('.concierge').animate({
-        left: '100%'
-    }, 2500).animate({
-        left: '-30%'
-    }, 3000);
-    setTimeout('concierge()', 5500);
-}
-
 function rect() {
     $('.mak').animate({
       top: '100%'
@@ -42,13 +31,6 @@ function rect() {
       top: '100%'
     }, 3000).animate({
         top: '0'
-    }, 3000);
-    $('.fadein').animate({
-        opacity: '1',
-        bottom: '0'
-    }, 3000).animate({
-        opacity: '0',
-        bottom: '200px'
     }, 3000);
     setTimeout('rect()', 6000);
 }
