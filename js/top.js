@@ -3,7 +3,7 @@ $(function(){
   setTimeout('story()', 1000);
   setTimeout('game()', 2000);
   setTimeout('about()', 3000);
-  banner-localizer();
+  banner_localizer();
 });
 
 function pop_story(num){
