@@ -119,12 +119,12 @@ body{
 
 .title{
   height: 100%;
-  padding: 70px 0;
+  padding: 20px 0;
 }
 
 .title h1{
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .title h2{
@@ -133,7 +133,7 @@ body{
 
 .title img{
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .download{
