@@ -76,12 +76,24 @@ function about(){
     $('#about-ad').click(function(){
       pop_story(3);
     });
+    $('#about-ad').css('left', '-100%');
     $('#about-ad').animate({
         left: '100%',
         top: '100%'
     }, 4500).animate({
-        left: '-100%',
         top: '-100%'
+    }, 0);
+    setTimeout('about_second()', 4800);
+}
+
+function about_second(){
+    $('#about-ad').css('left', '100%');
+    $('#about-ad').css('top', '0');
+    $('#about-ad').animate({
+        left: '-100%',
+        top: '100%'
+    }, 4500).animate({
+        top: '-100%',
     }, 0);
     setTimeout('about()', 4800);
 }
