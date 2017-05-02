@@ -1,8 +1,8 @@
 $(function(){
   setTimeout('chara()', 0);
-  setTimeout('story()', 1000);
-  setTimeout('game()', 2000);
-  setTimeout('about()', 3000);
+  setTimeout('story()', 500);
+  setTimeout('game()', 1000);
+  setTimeout('about()', 1500);
   banner_localizer();
 });
 
