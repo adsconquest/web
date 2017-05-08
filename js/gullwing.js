@@ -18,7 +18,15 @@ function random(){
 	'../img/game_over_2.png',
 	'../img/game_over3.png'
   ];
-  var randImg = images[Math.floor(Math.random() * images.length)];
+  var enImages = [
+	'../img/en_gameover_1.png',
+	'../img/en_game_over_2.png',
+  ];
+  if(window.navigator.languages[0] == "ja"){
+    var randImg = images[Math.floor(Math.random() * images.length)];
+  }else{
+    var randImg = enImages[Math.floor(Math.random() * images.length)];
+  }
   $('.pugya').attr('src', randImg);
 }
 function rect() {
