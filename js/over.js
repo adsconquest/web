@@ -1,6 +1,6 @@
 // Localize
 $(function(){
-  $("[data-localize]").localize("gullwing");
+  $("[data-localize]").localize("ov");
 });
 
 // Banner Animation
