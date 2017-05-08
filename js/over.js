@@ -1,6 +1,7 @@
 // Localize
 $(function(){
   $("[data-localize]").localize("ov");
+  topMSG();
 });
 
 // Banner Animation
@@ -11,6 +12,13 @@ $(function () {
     setTimeout('cherrySmile()');
     setTimeout('smile()', 2000);
 });
+
+
+function topMSG(){
+  if(window.navigator.languages[0] == "ja"){
+    $("#back").text("アプリに戻る");
+  }
+}
 
 function random(){
   var images = [
