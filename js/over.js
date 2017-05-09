@@ -29,7 +29,7 @@ function random(){
 	'../img/en_gameover_1.png',
 	'../img/en_gameover_2.png',
   ];
-  if(window.navigator.languages[0] == "ja"){
+  if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
     var randImg = images[Math.floor(Math.random() * images.length)];
   }else{
     var randImg = enImages[Math.floor(Math.random() * images.length)];
