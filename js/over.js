@@ -15,7 +15,6 @@ $(function () {
 
 function topMSG(){
   var language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0,2) == "ja" ? "ja" : "en";
-  //if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
   if(language == "ja"){
     $("#back").text("アプリに戻る");
   }

@@ -22,7 +22,8 @@ function random(){
 	'../img/en_gameover_1.png',
 	'../img/en_game_over_2.png',
   ];
-  if(window.navigator.languages[0] == "ja"){
+  var language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0,2) == "ja" ? "ja" : "en";
+  if(language == "ja"){
     var randImg = images[Math.floor(Math.random() * images.length)];
   }else{
     var randImg = enImages[Math.floor(Math.random() * images.length)];

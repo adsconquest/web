@@ -25,11 +25,15 @@ function pop_story(num){
 
 function banner_localizer(){
   var images = [];
-  if(window.navigator.languages[0] == "ja"){
+  var language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0,2) == "ja" ? "ja" : "en";
+  if(language == "ja"){
     images = [
 	    './img/gameover_buta.png',
     ];
-  }else if(window.navigator.languages[0] == "ch"){
+  }else{
+    images = [
+	    './img/en_gameover_buta.png',
+    ];
   }
   $('.pugya').attr('src', images);
 }
