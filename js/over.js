@@ -1,6 +1,5 @@
 // Localize
 $(function(){
-  $("[data-localize]").localize("ov");
   topMSG();
 });
 
