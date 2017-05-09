@@ -80,10 +80,10 @@ function about(){
     $('#about-ad').animate({
         left: '100%',
         top: '100%'
-    }, 2500).animate({
+    }, 800).animate({
         top: '-100%'
     }, 0);
-    setTimeout('about_second()', 2800);
+    setTimeout('about_second()', 900);
 }
 
 function about_second(){
@@ -92,8 +92,8 @@ function about_second(){
     $('#about-ad').animate({
         left: '-100%',
         top: '100%'
-    }, 2500).animate({
+    }, 800).animate({
         top: '-100%',
     }, 0);
-    setTimeout('about()', 2800);
+    setTimeout('about()', 900);
 }
