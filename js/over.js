@@ -14,7 +14,7 @@ $(function () {
 
 
 function topMSG(){
-  if(window.navigator.languages[0] == "ja"){
+  if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
     $("#back").text("アプリに戻る");
   }
 }
@@ -27,7 +27,7 @@ function random(){
   ];
   var enImages = [
 	'../img/en_gameover_1.png',
-	'../img/en_game_over_2.png',
+	'../img/en_gameover_2.png',
   ];
   if(window.navigator.languages[0] == "ja"){
     var randImg = images[Math.floor(Math.random() * images.length)];
