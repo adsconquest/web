@@ -32,7 +32,7 @@ function random(){
   if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
     var randImg = images[Math.floor(Math.random() * images.length)];
   }else{
-    var randImg = enImages[Math.floor(Math.random() * images.length)];
+    var randImg = enImages[Math.floor(Math.random() * enImages.length)];
   }
   $('.pugya').attr('src', randImg);
 }
