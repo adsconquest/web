@@ -41,11 +41,11 @@ function chara(){
     $('#chara-ad').animate({
         opacity: '1',
         bottom: '0'
-    }, 4500).animate({
+    }, 2500).animate({
         opacity: '0',
         bottom: '200px'
     }, 500);
-    setTimeout('chara()', 5000);
+    setTimeout('chara()', 3000);
 }
 
 function story(){
@@ -54,10 +54,10 @@ function story(){
     });
     $('#story-ad').animate({
         top: '100%'
-    }, 5000).animate({
+    }, 3000).animate({
         top: '-100%'
     }, 0);
-    setTimeout('story()', 5400);
+    setTimeout('story()', 3400);
 }
 
 function game(){
@@ -66,10 +66,10 @@ function game(){
     });
     $('#game-ad').animate({
         right: '100%'
-    }, 5000).animate({
+    }, 3000).animate({
         right: '-100%'
     }, 0);
-    setTimeout('game()', 5300);
+    setTimeout('game()', 3300);
 }
 
 function about(){
@@ -80,10 +80,10 @@ function about(){
     $('#about-ad').animate({
         left: '100%',
         top: '100%'
-    }, 4500).animate({
+    }, 2500).animate({
         top: '-100%'
     }, 0);
-    setTimeout('about_second()', 4800);
+    setTimeout('about_second()', 2800);
 }
 
 function about_second(){
@@ -92,8 +92,8 @@ function about_second(){
     $('#about-ad').animate({
         left: '-100%',
         top: '100%'
-    }, 4500).animate({
+    }, 2500).animate({
         top: '-100%',
     }, 0);
-    setTimeout('about()', 4800);
+    setTimeout('about()', 2800);
 }
