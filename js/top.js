@@ -69,7 +69,7 @@ function game(){
     }, 1000).animate({
         right: '-100%'
     }, 0);
-    setTimeout('game()', 1300);
+    setTimeout('game()', 1000);
 }
 
 function about(){
