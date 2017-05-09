@@ -22,6 +22,7 @@ function topMSG(){
 }
 
 function random(){
+  var language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0,2) == "ja" ? "ja" : "en";
   var images = [
 	'../img/gameover_buta.png',
 	'../img/game_over_2.png',
