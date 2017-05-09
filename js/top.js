@@ -54,10 +54,10 @@ function story(){
     });
     $('#story-ad').animate({
         top: '100%'
-    }, 3000).animate({
+    }, 1000).animate({
         top: '-100%'
     }, 0);
-    setTimeout('story()', 3400);
+    setTimeout('story()', 1400);
 }
 
 function game(){
@@ -66,10 +66,10 @@ function game(){
     });
     $('#game-ad').animate({
         right: '100%'
-    }, 3000).animate({
+    }, 1000).animate({
         right: '-100%'
     }, 0);
-    setTimeout('game()', 3300);
+    setTimeout('game()', 1300);
 }
 
 function about(){
