@@ -26,8 +26,7 @@ function random(){
 	'../img/gameover_buta.png',
 	'../img/game_over_2.png',
 	'../img/gameover_10.png',
-	'../img/gameover_8.png',
-	'../img/game_over3.png'
+	'../img/gameover_8.png'
   ];
   var enImages = [
 	'../img/en_gameover_1.png',
