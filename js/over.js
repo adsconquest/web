@@ -14,7 +14,9 @@ $(function () {
 
 
 function topMSG(){
-  if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
+  var language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0,2) == "ja" ? "ja" : "en";
+  //if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
+  if(language == "ja"){
     $("#back").text("アプリに戻る");
   }
 }
@@ -29,7 +31,8 @@ function random(){
 	'../img/en_gameover_1.png',
 	'../img/en_gameover_2.png',
   ];
-  if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
+  //if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
+  if(language == "ja"){
     var randImg = images[Math.floor(Math.random() * images.length)];
   }else{
     var randImg = enImages[Math.floor(Math.random() * enImages.length)];
