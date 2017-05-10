@@ -12,6 +12,14 @@ $(function () {
     setTimeout('smile()', 2000);
 });
 
+$(document).ready(function() {
+  var language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0,2) == "ja" ? "ja" : "en";
+  if(language != "ja"){
+    $("#twitter").attr("href", "https://twitter.com/adsconquestglob");
+    $("#instagram").attr("href", "https://www.instagram.com/adsconquestglobal/");
+  }
+});
+
 function random(){
   var images = [
 	'../img/gameover_buta.png',
