@@ -26,16 +26,16 @@ function pop_story(num){
 function banner_localizer(){
   var images = [];
   var language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0,2) == "ja" ? "ja" : "en";
-  if(language == "ja"){
-    images = [
-	    './img/gameover_buta.png',
-    ];
-  }else{
-    images = [
-	    './img/en_gameover_buta.png',
-    ];
+  if(language != "ja"){
+    $('#chara-pop').attr('src', './img/en_lp_character.png');
+    $('#story-pop').attr('src', './img/en_lp_story.png');
+    $('#game-pop').attr('src', './img/en_lp_game.png');
+    $('#about-pop').attr('src', './img/en_lp_about.png');
+    $('#chara-ad').attr('src', './img/en_lp_bn_character.png');
+    $('#story-ad').attr('src', './img/en_lp_bn_story.png');
+    $('#game-ad').attr('src', './img/en_lp_bn_game.png');
+    $('#about-ad').attr('src', './img/en_lp_bn_about.png');
   }
-  $('.pugya').attr('src', images);
 }
 
 function chara(){
