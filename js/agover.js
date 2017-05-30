@@ -28,8 +28,9 @@ function random(){
 	'../img/gameover_15.png',
   ];
   var enImages = [
-	'../img/en_gameover_1.png',
-	'../img/en_gameover_2.png',
+	'../img/en_gameover_14.png',
+	'../img/en_gameover_14.png',
+	'../img/en_gameover_15.png',
   ];
   //if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
   if(language == "ja"){
