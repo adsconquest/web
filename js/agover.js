@@ -17,6 +17,7 @@ function topMSG(){
   var language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0,2) == "ja" ? "ja" : "en";
   if(language == "ja"){
     $("#back").text("アプリに戻る");
+  }else{
     $("#twitter").text("Mr.AGOrai Twitter page");
   }
 }
