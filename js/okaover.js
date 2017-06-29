@@ -18,16 +18,15 @@ function topMSG(){
   if(language == "ja"){
     $("#back").text("アプリに戻る");
   }else{
-    $("#twitter").text("Mr.AGOrai Twitter page");
+    $("#twitter").text("OKAOKAHOUSE Twitter page");
   }
 }
 
 function random(){
   var language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0,2) == "ja" ? "ja" : "en";
   var images = [
-	'../img/gameover_14.png',
-	'../img/gameover_14.png',
-	'../img/gameover_15.png',
+	'../img/gameover_okaoka1.png',
+	'../img/gameover_okaoka2.png',
   ];
   var enImages = [
 	'../img/en_gameover_14.png',
