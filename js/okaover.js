@@ -18,7 +18,7 @@ function topMSG(){
   if(language == "ja"){
     $("#back").text("アプリに戻る");
   }else{
-    $("#twitter").text("OKAOKAHOUSE Twitter page");
+    $("#twitter").text("OKAOKAHOUSE WEB PAGE");
   }
 }
 
