@@ -29,9 +29,7 @@ function random(){
 	'../img/gameover_okaoka2.png',
   ];
   var enImages = [
-	'../img/en_gameover_14.png',
-	'../img/en_gameover_14.png',
-	'../img/en_gameover_15.png',
+	'../img/en_gameover_okaoka.png',
   ];
   //if(window.navigator.languages[0] == "ja" || window.navigator.languages[0] == "ja-JP"){
   if(language == "ja"){
